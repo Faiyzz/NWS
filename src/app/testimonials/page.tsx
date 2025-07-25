@@ -18,14 +18,14 @@ export default function TestimonialPage() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-6xl font-extralight leading-tight max-w-4xl"
+          className="text-5xl md:text-7xl font-extralight leading-tight max-w-4xl"
         >
           Real Results. Real People.
           <br />
-          <span className="font-semibold">ZSIDEO Clients Speak For Us.</span>
+          <span className="font-semibold text-blue-900">ZSIDEO Clients Speak For Us.</span>
         </motion.h1>
         <p className="mt-6 max-w-xl text-zinc-600 text-lg">
-          Our content fulfillment team doesn’t just deliver — we exceed. From strategy to execution, our clients trust us to make their vision go viral.
+          Our content fulfillment team doesn&apos;t just deliver — we exceed. From strategy to execution, our clients trust us to make their vision go viral.
         </p>
       </section>
 

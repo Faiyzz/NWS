@@ -10,7 +10,7 @@ const navLinks = [
   
   
   { href: "/testimonials", label: "Testimonials" },
-  { href: "/#letstalk", label: "Let's Talk" },
+  { href: "/#contact", label: "Let's Talk" },
 ]
 
 export default function Navbar() {

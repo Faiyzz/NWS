@@ -28,6 +28,7 @@ export default function CtaSection() {
 
   return (
     <div
+    id='contact'
       ref={containerRef}
       className="relative w-full h-[120vh] flex flex-col items-center justify-center bg-transparent"
     >
