@@ -12,7 +12,7 @@ export default function CtaSection() {
     offset: ['start start', 'end start'], // track from container entering viewport to end of container
   })
 
-  const width = useTransform(scrollYProgress, [0, 1], ['60vw', '100vw'])
+  const width = useTransform(scrollYProgress, [0, 1], ['60vw', '190vw'])
 
   useEffect(() => {
     if (showCalendly) {
@@ -34,7 +34,7 @@ export default function CtaSection() {
     >
       <motion.div
         style={{ width }}
-        className="sticky top-[20vh] bg-[#3564ab] rounded-2xl shadow-xl h-[60vh] flex items-center justify-center overflow-hidden"
+        className="sticky top-[10vh] bg-[#3564ab] rounded-2xl shadow-xl h-[90vh] flex items-center justify-center overflow-hidden"
       >
         <div className="max-w-3xl px-6 text-center text-white">
           <h2 className="text-4xl md:text-6xl font-semibold mb-8">
