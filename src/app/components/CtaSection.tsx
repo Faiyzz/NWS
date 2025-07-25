@@ -30,11 +30,11 @@ export default function CtaSection() {
     <div
     id='contact'
       ref={containerRef}
-      className="relative w-full h-[120vh] flex flex-col items-center justify-center bg-transparent"
+      className="relative w-full h-[160vh] flex flex-col items-center justify-center bg-transparent"
     >
       <motion.div
         style={{ width }}
-        className="sticky top-[10vh] bg-[#3564ab] rounded-2xl shadow-xl h-[90vh] flex items-center justify-center overflow-hidden"
+        className="sticky top-[10vh] bg-[#3564ab] rounded-2xl shadow-xl h-[150vh] flex items-center justify-center overflow-hidden"
       >
         <div className="max-w-3xl px-6 text-center text-white">
           <h2 className="text-4xl md:text-6xl font-semibold mb-8">
