@@ -28,7 +28,7 @@ export default function HomePage() {
    
        < WebsiteSection/>
     
-     <CTA/>
+     <CTA calendlyUrl="https://calendly.com/d/cv9k-n8v-s84"/>
 
        
           <Footer/>

@@ -4,9 +4,10 @@ import CTA from "./components/CTA";
 import ServiceBlock from "./components/ServiceBlock";
 import { SERVICES } from "./data";
 
-const CALENDLY_URL = "https://calendly.com/your-team/discovery-30";
+
 
 export default function ServicesPage() {
+    const CALENDLY_URL = "https://calendly.com/d/cv9k-n8v-s84";
   const navItems = SERVICES.map(({ id, title, icon }) => ({ id, title, icon }));
 
   return (

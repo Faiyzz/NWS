@@ -24,7 +24,8 @@ type Props = {
 };
 
 export default function CTA({
-  calendlyUrl,
+  calendlyUrl = 'https://calendly.com/d/cv9k-n8v-s84',
+                
   heading = 'Ready to scale ?',
   subheading = 'Book a free strategy call. We’ll map automations, CRMs, and AI agents that move the needle—fast.',
   highlights = ['No obligation', 'Roadmap in 30 minutes', 'We handle setup, hosting & SEO'],

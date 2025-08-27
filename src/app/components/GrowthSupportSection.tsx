@@ -8,7 +8,8 @@ import Link from 'next/link';
 
 type Service = {
   title: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
+
   points: string[];
   image: string;
   alt: string;

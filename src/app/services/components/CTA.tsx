@@ -3,7 +3,9 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import Link from 'next/link';
 import { CalendarDays } from 'lucide-react';
-
+type CTAProps = {
+  calendlyUrl: string;
+};
 export default function CTA({ calendlyUrl }: { calendlyUrl: string }) {
   const [open, setOpen] = useState(false);
 
