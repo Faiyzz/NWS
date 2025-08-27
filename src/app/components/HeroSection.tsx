@@ -20,7 +20,7 @@ export default function HeroSection() {
   className="text-zinc-900 text-5xl md:text-7xl xl:text-8xl font-light tracking-tight leading-tight mb-12"
 >
   ZSIDEO builds the future with <br />{' '}
-  <span className="text-blue-900 italic">Code, Cameras & Creativity.</span>{' '}
+  <span className="text-blue-900 italic">AI, Automation & Software.</span>{' '}
   
 </BlurText>
 

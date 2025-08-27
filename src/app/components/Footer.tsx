@@ -16,7 +16,7 @@ export default function Footer() {
         {/* Branding */}
         <div className="text-center md:text-left">
           <h2 className="text-3xl font-semibold tracking-tight mb-2">ZSIDEO</h2>
-          <p className="text-sm text-zinc-400">Crafting growth-driven digital content & platforms.</p>
+          <p className="text-sm text-zinc-400">Crafting growth-driven digital Solutions & platforms.</p>
         </div>
 
         {/* Services */}

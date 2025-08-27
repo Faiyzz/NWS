@@ -2,13 +2,17 @@
 
 import HeroSection from './components/HeroSection'
 import GrowthSupportSection from './components/GrowthSupportSection'
-import FeaturedVideo from './components/FeaturedVideo'
-import EditingSection from './components/EditingSection'
+import TechMarquee from './components/TechMarquee'
+
+import CTA from './components/CTA'
 import WebsiteSection from './components/Website'
-import RecordingSection from './components/RecordingSection'
-import AiCloningSection from './components/AiCloningSection'
-import CtaSection from './components/CtaSection'
+
+
+
 import Footer from './components/Footer'
+import CounterSection from './components/CounterSection'
+
+
 
 
 export default function HomePage() {
@@ -17,15 +21,16 @@ export default function HomePage() {
      
       <main className="overflow-x-hidden">
         <HeroSection />
-        <FeaturedVideo />
+        <TechMarquee/>
         <GrowthSupportSection />
-        <EditingSection/>
-        <RecordingSection/>
+       <CounterSection/>
+        
+   
        < WebsiteSection/>
     
-       <AiCloningSection/>
+     <CTA/>
 
-          <CtaSection/>
+       
           <Footer/>
       
       </main>

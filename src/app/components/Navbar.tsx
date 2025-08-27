@@ -7,8 +7,8 @@ import { useCursorStore } from "./lib/store"
 import Image from "next/image";
 
 const navLinks = [
-  
-  
+  { href: "/", label: "Home" },
+  { href: "/services", label: "Services" },
   { href: "/testimonials", label: "Testimonials" },
   { href: "/#contact", label: "Let's Talk" },
 ]
